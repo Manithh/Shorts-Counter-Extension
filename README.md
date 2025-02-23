@@ -1,5 +1,5 @@
 # Shorts Tracking Extension  
-A browser extension for tracking and managing shorts on Opera and Chrome.  
+A browser extension for tracking and counting shorts on Chrome.  
 
 ## Features  
 - *Counts* the number of YouTube Shorts watched  
