@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Shorts Counter</title>
+  <style>
+    html {
+      overflow: hidden;
+    }
+    body {
+    width: 200px;
+    text-align: center;
+    padding: 20px;
+    font-family: "Inter", sans-serif;
+    background: rgb(87,87,122);
+    background: linear-gradient(90deg, rgba(87,87,122,1) 0%, rgba(43,43,65,1) 100%);
+    color: #ffffff;
+    box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;    
+    overflow: hidden;
+    text-shadow: 2px 2px 4px black;
+    border-radius: 4px;
+    }
+    #counter {
+      font-size: 32px;
+      margin: 15px 0;
+      padding: 10px;
+      background: #3c3c5a;
+      display: inline-block;
+      min-width: 60px;
+      border-radius: 12px;
+      box-shadow: rgba(29, 29, 29, 0.873) 3px 3px 2.6px;
+    }
+    .button-group {
+      display: flex;
+      gap: 10px;
+      justify-content: center;
+    }
+    button {
+      padding: 8px 14px;
+      cursor: pointer;
+      font-size: 14px;
+      font-weight: bold;
+      border: none;
+      border-radius: 12px;
+      transition: background 0.3s;
+      
+      box-shadow: rgba(29, 29, 29, 0.873) 3px 3px 2.6px;
+
+    }
+   
+    #reset-button {
+      background: #ff4c4c;
+      color: white;
+      border-radius: 12px;
+    }
+    #reset-button:hover {
+      background: #de3a3a;
+    }
+    #reset-button:active {
+      box-shadow: rgba(0, 0, 0, 0.664) 3px 3px 2.6px;
+      transform: translateY(3px);
+      
+    }
+  </style>
+</head>
+<body>
+  <h2>SHORTS WATCHED</h2>
+  <div id="counter">0</div>
+  <div class="button-group">
+    <button id="reset-button">Reset</button>
+  </div>
+  <script src="popup.js"></script>
+</body>
+</html>
