@@ -16,6 +16,6 @@ A browser extension for tracking and counting shorts on Chrome.
 - **popup.html** → UI for the popup  
 - **popup.js** → Handles popup functionality  
 - **content.js** → Injects scripts into web pages  
-- **background.js** → Background processing (if any)  
+- **background.js** → Background processing  
 
 
